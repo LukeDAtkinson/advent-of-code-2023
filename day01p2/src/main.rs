@@ -6,7 +6,7 @@ use std::path::Path;
 use regex::Regex;
 
 fn main() -> Result<(), String> {
-    let lines = read_lines("day-01-part-2/input.txt").map_err(|e| e.to_string())?;
+    let lines = read_lines("../input.txt").map_err(|e| e.to_string())?;
     let v: u32 = lines.map(|l| get_line_value(l.unwrap().as_str()).unwrap()).sum();
     println!("{}", v);
     Ok(())
