@@ -14,8 +14,7 @@ The boat moves for time $T - x$.
 Therefore the distance covered by the boat is given by
 $$x(T-x) = Tx - x^2.$$
 
-We are looking for any values of x such that this value is greater than the record.
-
+We are looking for any values of x such that this value is greater than the record:
 $$Tx - x^2 > R.$$
 
 Rearranging this we get:
